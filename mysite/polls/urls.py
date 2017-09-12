@@ -1,6 +1,8 @@
 from django.conf.urls import url
 from . import views
 
+app_name = 'polls'
+
 # deal with the relative url within this app
 urlpatterns = [
 
